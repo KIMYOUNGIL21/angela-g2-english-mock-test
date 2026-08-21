@@ -19,6 +19,25 @@ https://github.com/KIMYOUNGIL21/angela-g2-english-mock-test.git
 Claude Code 설치와 Windows 준비는 Anthropic 공식 안내를 따릅니다.
 <https://docs.anthropic.com/en/docs/claude-code/getting-started>
 
+## Claude Desktop만 사용하는 경우
+
+ZIP 파일을 Claude Project에 올리는 것만으로도 규칙과 코드를 읽게 할 수 있습니다.
+다만 실제 파일을 수정하려면 다음 순서가 필요합니다.
+
+1. ZIP의 압축을 풉니다.
+2. Claude Desktop에서 새 Project를 만듭니다.
+3. Project 지식에 `CLAUDE.md`, `WORKBOOK_SPEC.md`, `TEACHER_START_HERE.md`를 추가합니다.
+4. Claude Desktop의 설정에서 로컬 파일 접근용 Desktop Extension을 설치하고, 압축을 푼 프로젝트 폴더만 연결합니다.
+5. Claude에게 다음처럼 말합니다.
+
+```text
+연결한 폴더를 안젤라 선생님 고2 영어 워크북 프로젝트의 루트로 사용해줘.
+먼저 CLAUDE.md와 WORKBOOK_SPEC.md를 읽고, 앞으로 파일을 직접 수정해줘.
+문제를 만든 뒤 assets/questions.js와 assets/answers.js에 저장하고 기존 문항은 보존해줘.
+```
+
+Project에 ZIP만 업로드한 상태는 파일을 참고하는 용도입니다. 파일 저장과 테스트 실행까지 하려면 로컬 파일 접근 권한을 별도로 허용해야 합니다.
+
 ## 매번 문제를 만들 때
 
 1. `scripts\open-claude.cmd`를 두 번 클릭합니다.
