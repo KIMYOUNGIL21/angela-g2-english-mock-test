@@ -33,6 +33,11 @@
 규칙을 읽을 수 있도록 [`CLAUDE.md`](CLAUDE.md)에도 같은 제작 원칙과 파일 작업
 규칙을 기록했습니다.
 
+선생님이 직접 운영할 때는 [`TEACHER_START_HERE.md`](TEACHER_START_HERE.md)를
+먼저 읽습니다. 저장소를 한 번 내려받고 `scripts/open-claude.cmd`를 실행하면
+Claude Code가 이 프로젝트 폴더에서 시작됩니다. 이후 지문 번호, 유형, 난이도,
+문항 수를 자연어로 요청하고, 검사 후 GitHub에 게시할 수 있습니다.
+
 ## 기출 참고 방식
 
 EBSi 원문을 복제하지 않았습니다. 2024~2025년 고2 전국연합학력평가의 핵심
